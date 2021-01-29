@@ -16,6 +16,7 @@ class ArrayClass2
 
                 {
                     System.out.print(" "+A1[i]);
+                    System.out.println(" ");
                 }
             }
         }
