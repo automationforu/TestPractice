@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-28T05:55:38.427Z",
+        "line": 4,
+        "name": "login with valid username and password",
+        "description": "",
+        "id": "my-account-login-feature;login-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5220000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser",
+            "match": {
+              "location": "StepDefinations.Facebooklogin.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3345000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the url \"https://www.facebook.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinations.Facebooklogin.enter_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 509000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter username and password",
+            "match": {
+              "location": "StepDefinations.Facebooklogin.enter_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 338000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on login button",
+            "match": {
+              "location": "StepDefinations.Facebooklogin.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 886000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close browser",
+            "match": {
+              "location": "StepDefinations.Facebooklogin.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "My Account Login feature",
+    "description": "  Description: This Feature will Test a login feature",
+    "id": "my-account-login-feature",
+    "keyword": "Feature",
+    "uri": "file:Features/Demo1.feature",
+    "tags": []
+  }
+]

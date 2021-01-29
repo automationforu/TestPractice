@@ -1,0 +1,102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-29T06:13:37.078Z",
+        "line": 3,
+        "name": "Dropping a drop box from one place to another place",
+        "description": "",
+        "id": "dropping-a-particular-drop-box;dropping-a-drop-box-from-one-place-to-another-place",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7856000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Browser",
+            "match": {
+              "location": "Dropable.MyStepdefForDroppable.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3182000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter url \"https://jqueryui.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://jqueryui.com/\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Dropable.MyStepdefForDroppable.enterUrl(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2228000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on Droppable",
+            "match": {
+              "location": "Dropable.MyStepdefForDroppable.clickOnDroppable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Switch to frame",
+            "match": {
+              "location": "Dropable.MyStepdefForDroppable.switchToFrame()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 390000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "select element to drop",
+            "match": {
+              "location": "Dropable.MyStepdefForDroppable.selectElementToDrop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close browser",
+            "match": {
+              "location": "Dropable.MyStepdefForDroppable.closebrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Dropping a particular Drop Box",
+    "description": "",
+    "id": "dropping-a-particular-drop-box",
+    "keyword": "Feature",
+    "uri": "file:Features/Demo2.feature",
+    "tags": []
+  }
+]

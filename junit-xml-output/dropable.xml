@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.463">
+<testcase classname="Dropping a particular Drop Box" name="Dropping a drop box from one place to another place" time="14.115">
+<system-out><![CDATA[Given Open Browser..........................................................passed
+When Enter url "https://jqueryui.com/"......................................passed
+And click on Droppable......................................................passed
+And Switch to frame.........................................................passed
+And select element to drop..................................................passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

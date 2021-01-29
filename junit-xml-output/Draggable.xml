@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.65">
+<testcase classname="To Drag a Web Element" name="To Drag a WebElemnt From one place to another place" time="10.169">
+<system-out><![CDATA[Given Open Browser..........................................................passed
+When launch url "https://jqueryui.com/".....................................passed
+And click on Draggable......................................................passed
+And Switch to frame.........................................................passed
+And Select WebElement To Drag...............................................passed
+Then Close Browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
